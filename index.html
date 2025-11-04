@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baazar Twierdzy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/twierdza.jpg" alt="Logo Twierdzy">
+      <h1>Baazar Twierdzy</h1>
+    </div>
+    <a href="oferta.html">➕ Dodaj ogłoszenie</a>
+  </header>
+
+  <main>
+    <section class="filters">
+      <button class="filter-btn active" data-category="Wszystko">Wszystko</button>
+      <button class="filter-btn" data-category="Mundury">Mundury</button>
+      <button class="filter-btn" data-category="Bojówki">Bojówki</button>
+      <button class="filter-btn" data-category="Spódnice">Spódnice</button>
+      <button class="filter-btn" data-category="Buty">Buty</button>
+      <button class="filter-btn" data-category="Książki">Książki</button>
+      <button class="filter-btn" data-category="Inne">Inne</button>
+    </section>
+
+    <section class="offers" id="offers">
+      <!-- Przykładowe ogłoszenie -->
+      <article class="offer" data-category="Mundury">
+        <div class="content">
+          <h3>Hej</h3>
+          <p>tutaj mialo byc chyba hej</p>
+          <p><strong>Cena:</strong> Tej</p>
+          <p><strong>Kategoria:</strong> Mundury</p>
+          <p><strong>Kontakt:</strong> .</p>
+        </div>
+      </article>
+
+      <article class="offer" data-category="Inne">
+        <div class="content">
+          <h3>Taczka</h3>
+          <p>Sprzedam Opla </p>
+          <p><strong>Cena:</strong> 1000</p>
+          <p><strong>Kategoria:</strong> Inne</p>
+          <p><strong>Kontakt:</strong> 997</p>
+        </div>
+      </article>
+
+      <article class="offer" data-category="Bojówki">
+        <div class="content">
+          <h3>Testowy tytuł</h3>
+          <p>Testowy opis — treść ogłoszenia widoczna tutaj.</p>
+          <p><strong>Cena:</strong> 112 zł</p>
+          <p><strong>Kategoria:</strong> Bojówki</p>
+          <p><strong>Kontakt:</strong> 133</p>
+        </div>
+      </article>
+      <!-- Kolejne ogłoszenia można dodawać tutaj -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Baazar Twierdzy. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
